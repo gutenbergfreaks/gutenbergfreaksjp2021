@@ -1,0 +1,20 @@
+{
+	"core": null,
+	"port": 4444,
+	"testsPort": 4445,
+	"plugins": [
+		"https://downloads.wordpress.org/plugin/wp-graphql.zip",
+		"wp-graphql/wp-graphql-tax-query",
+		"pristas-peter/wp-graphql-gutenberg#v0.3.11",
+		"./plugins/wpe-headless",
+		"./plugins/atlas-content-modeler"
+	],
+	"mappings": {
+		"wp-content/mu-plugins": "./mu-plugins"
+	},
+	"config": {
+		"PERMALINK_STRUCTURE": "/posts/%postname%",
+		"FRONTEND_URI": "http://localhost:3000",
+		"WP_HEADLESS_SECRET": "your-key"
+	}
+}
