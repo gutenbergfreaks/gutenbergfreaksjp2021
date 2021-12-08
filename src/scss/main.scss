@@ -5,8 +5,29 @@
 
 body {
 	color: $color-black;
-	font-size: 18px;
-	line-height: 1.6;
+}
+
+iframe {
+	max-width: 100%;
+}
+figure {
+	margin: 0;
+}
+pre {
+	max-width: 100%;
+	overflow: scroll;
+	padding: 1em;
+	line-height: 1.25;
+	background-color: #fafafa;
+	code {
+		font-size: smaller;
+	}
+}
+blockquote {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 1em;
+	margin-inline-end: 0;
 }
 
 .wrap {

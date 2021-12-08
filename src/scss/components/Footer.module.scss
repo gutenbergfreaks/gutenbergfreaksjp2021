@@ -16,11 +16,11 @@
 
 footer.main {
 	background: $color-light-gray;
-	height: 100px;
+	padding: 2em 1em;
 }
 
 footer.main p {
 	color: $color-dark-gray;
-	line-height: 100px;
 	margin: 0;
+	font-size: smaller;
 }
